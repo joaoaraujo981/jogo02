@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!-- saved from url=(0402)https://sdmntprbrazilsouth.oaiusercontent.com/files/00000000-3808-820e-9185-7f42119b9e6c/raw?se=2026-11-16T17%3A11%3A15Z&sp=r&sv=2026-06-06&sr=b&scid=8eb978df-a195-4460-bd41-8d558357c9c3&skoid=db6dad9e-03ee-465b-aef6-ce0f63a161dc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-16T15%3A24%3A56Z&ske=2026-11-17T15%3A24%3A56Z&sks=b&skv=2026-06-06&sig=bW0aJtuC1ZZtNOC4LPPaw7jiOwKxOTl3NWWPvAgUbAw%3D -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Última Defesa de Roma — Aventura para celular</title>
+<style>
+:root{
+ --vinho:#672b35;--vinho2:#8d3c43;--ouro:#d6a34b;--pergaminho:#fff5df;
+ --tinta:#30251d;--verde:#527b55;--sombra:0 14px 35px rgba(36,23,16,.22)
+}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Georgia,"Times New Roman",serif;color:var(--tinta);
+ background:#24394a}
+.page{min-height:100vh;position:relative;overflow:hidden;padding:24px 14px 40px;
+ background:
+ linear-gradient(180deg,rgba(20,38,53,.14),rgba(20,30,35,.25)),
+ radial-gradient(ellipse at 50% 8%,#f7d99a 0,#d9a96e 36%,transparent 70%),
+ linear-gradient(180deg,#8eb2bd 0%,#d7bd8b 53%,#657d52 54%,#334b3d 100%)}
+.page:before{content:"";position:absolute;inset:auto -5% 0;height:44%;opacity:.55;
+ background:
+ radial-gradient(ellipse at 10% 100%,#283f35 0 27%,transparent 28%),
+ radial-gradient(ellipse at 88% 100%,#2d4737 0 30%,transparent 31%),
+ linear-gradient(170deg,transparent 0 38%,#596b47 39% 100%);pointer-events:none}
+.sun{position:absolute;top:42px;right:12%;width:90px;height:90px;border-radius:50%;
+ background:#ffe6a5;box-shadow:0 0 55px #ffe6a5;opacity:.85}
+.skyline{position:absolute;left:0;right:0;top:160px;height:240px;pointer-events:none;opacity:.8}
+.skyline svg{width:100%;height:100%}
+.wrap{position:relative;z-index:1;max-width:980px;margin:auto}
+header{text-align:center;color:#fff8e8;text-shadow:0 3px 5px #34241e;margin:6px 0 20px}
+.kicker{font: bold 12px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#ffe3a2}
+h1{font-size:clamp(30px,5vw,50px);margin:7px 0 4px}
+.subtitle{font:16px Arial,sans-serif;margin:0}
+.topline{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:18px 0}
+.pill{font: bold 14px Arial,sans-serif;background:#fff5df;color:#5e2b30;padding:9px 14px;border-radius:30px;border:1px solid #e5c58a;box-shadow:0 4px 0 rgba(69,40,27,.2)}
+.share-tools{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:0 auto 16px;position:relative;z-index:2}
+.share-tools button{border:2px solid #f2d59b;border-radius:14px;padding:12px 16px;background:#fff5df;color:#642f37;font:bold 14px Arial,sans-serif;box-shadow:0 4px 0 rgba(69,40,27,.2);min-height:46px;touch-action:manipulation}
+.share-tools button:first-child{background:#b8752f;color:#fff;border-color:#f0c778}
+#shareStatus{width:100%;text-align:center;color:#fff8e8;font:12px Arial,sans-serif;text-shadow:0 1px 3px #34241e;min-height:14px}
+@media(max-width:560px){.share-tools{gap:8px;margin-bottom:12px}.share-tools button{flex:1;min-width:145px;padding:11px 9px;font-size:13px}}
+.shell{background:rgba(255,247,226,.96);border:4px solid #9a6c3e;border-radius:24px;box-shadow:var(--sombra);overflow:hidden}
+.scene{background:linear-gradient(130deg,#f5dfb5,#e8c994);padding:18px 22px 12px;border-bottom:2px solid #d0ad76}
+.cast{display:flex;justify-content:center;align-items:flex-end;gap:clamp(10px,4vw,42px);min-height:125px}
+.person{text-align:center;width:105px;font: bold 12px Arial,sans-serif;color:#55392b}
+.avatar{height:82px;width:72px;margin:0 auto 5px;position:relative;display:flex;align-items:center;justify-content:center;
+ font-size:47px;filter:drop-shadow(0 4px 2px rgba(55,34,18,.22))}
+.person:nth-child(2) .avatar{font-size:53px}
+.person:nth-child(3) .avatar{font-size:49px}
+.speech{max-width:700px;margin:8px auto 0;text-align:center;color:#5d392a;font:italic 15px Arial,sans-serif}
+.content{padding:clamp(18px,4vw,34px)}
+.progressrow{display:flex;justify-content:space-between;gap:10px;align-items:center;font: bold 13px Arial,sans-serif;color:#78543a}
+.progress{height:10px;background:#e6d4b4;border-radius:20px;overflow:hidden;margin:10px 0 22px}
+.bar{height:100%;width:0;background:linear-gradient(90deg,#b87935,#e1b65d);transition:width .3s}
+.tag{font: bold 12px Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:#98652e}
+h2{font-size:clamp(22px,3.5vw,30px);line-height:1.2;color:var(--vinho);margin:9px 0 12px}
+.question{font:18px/1.55 Arial,sans-serif;margin:0 0 18px}
+.options{display:grid;gap:11px}
+.option{display:flex;gap:13px;align-items:flex-start;width:100%;padding:14px 16px;text-align:left;
+ border:2px solid #d6bd91;border-radius:14px;background:#fffaf0;color:#35271e;
+ font:16px/1.4 Arial,sans-serif;cursor:pointer;transition:.18s}
+.option:hover:not(:disabled){border-color:#a66b37;background:#fff1d4;transform:translateY(-1px)}
+.letter{flex:0 0 30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#71323b;color:#fff;font-weight:bold}
+.option.correct{border-color:#5e8a5b;background:#e5f1df}
+.option.wrong{border-color:#b75b50;background:#f8e4df}
+.option:disabled{cursor:default}
+.explanation{margin-top:18px;padding:17px;border-radius:14px;background:#e9f0df;border-left:6px solid #648657;
+ font:15px/1.55 Arial,sans-serif}
+.retry-message{margin-top:14px;padding:13px 15px;border-radius:13px;background:#fff0d5;border:2px solid #d6a34b;color:#75451e;font:bold 15px/1.4 Arial,sans-serif;text-align:center}
+.retry-message small{display:block;font-weight:normal;margin-top:4px}
+.explanation h3{margin:0 0 6px;color:#3d653e;font-size:17px}
+.actions{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:20px}
+button.action{border:0;border-radius:12px;padding:13px 19px;background:var(--vinho);color:white;font:bold 15px Arial,sans-serif;cursor:pointer;box-shadow:0 4px 0 #3e1c24}
+button.action.gold{background:#b8752f;box-shadow:0 4px 0 #75451e}
+button.action:disabled{opacity:.4;cursor:not-allowed}
+.hidden{display:none!important}
+.center{text-align:center}
+.result{padding:30px;text-align:center}
+.result .trophy{font-size:64px}
+.result p{font:17px/1.6 Arial,sans-serif}
+.result strong{color:var(--vinho)}
+.note{font:13px/1.5 Arial,sans-serif;color:#725b43;margin-top:16px}
+@media(max-width:560px){
+ .page{padding:14px 9px 28px}.scene{padding:13px 8px 9px}
+ .person{width:90px}.avatar{height:70px;font-size:39px}
+ .speech{font-size:13px}.question{font-size:16px}.option{font-size:15px;padding:12px}
+ .content{padding:17px}
+}
+
+/* Personagens em estilo 3D ilustrado e interface touch-first */
+.cast{gap:clamp(8px,3vw,34px);min-height:160px;align-items:flex-end}
+.person{width:clamp(88px,20vw,132px);position:relative}
+.avatar{height:112px;width:94px;margin:0 auto 7px;position:relative;display:block;font-size:0;filter:drop-shadow(0 9px 5px rgba(45,27,15,.25))}
+.avatar:before{content:"";position:absolute;left:23px;top:9px;width:49px;height:49px;border-radius:48% 48% 45% 45%;background:linear-gradient(145deg,#ffe0b8 0%,#d99b69 70%,#a96345 100%);box-shadow:inset -7px -5px 0 rgba(117,62,39,.16),inset 5px 4px 0 rgba(255,255,255,.38);z-index:3}
+.avatar:after{content:"";position:absolute;left:13px;top:52px;width:69px;height:59px;border-radius:23px 23px 13px 13px;background:linear-gradient(110deg,#8d3c43,#c66b52 48%,#632b36);box-shadow:inset -9px -3px 0 rgba(49,25,31,.22),inset 6px 3px 0 rgba(255,255,255,.2),0 5px 0 #633b2c;z-index:2}
+.person:nth-child(1) .avatar .hair{position:absolute;z-index:4;left:21px;top:3px;width:54px;height:28px;border-radius:50% 50% 28% 28%;background:radial-gradient(circle at 30% 30%,#6d422b 0 18%,transparent 19%),radial-gradient(circle at 60% 20%,#6d422b 0 20%,transparent 21%),radial-gradient(circle at 80% 50%,#56331f 0 22%,transparent 23%),#70452c}
+.person:nth-child(2) .avatar:before{background:linear-gradient(145deg,#f8d7ae,#bd8058 72%,#8d513c)}
+.person:nth-child(2) .avatar:after{background:linear-gradient(110deg,#687d83,#b5c0b2 45%,#52616a);border:3px solid #d7ad61}
+.person:nth-child(2) .avatar .helmet{position:absolute;z-index:5;left:17px;top:0;width:62px;height:32px;border-radius:36px 36px 8px 8px;background:linear-gradient(100deg,#9b642c,#f1cf78 45%,#9d622b);border-bottom:5px solid #80501f;box-shadow:inset 4px 3px 0 #ffe6a0,0 3px 3px #634522}
+.person:nth-child(2) .avatar .helmet:after{content:"";position:absolute;left:25px;top:-14px;width:11px;height:20px;border-radius:90% 10% 80% 10%;background:linear-gradient(90deg,#8b3432,#d77a49);transform:rotate(12deg)}
+.person:nth-child(3) .avatar:after{background:linear-gradient(110deg,#39566a,#66899a 48%,#263d53)}
+.person:nth-child(3) .avatar .hair{position:absolute;z-index:4;left:20px;top:4px;width:54px;height:25px;border-radius:50% 50% 35% 35%;background:linear-gradient(120deg,#4c3328,#9a7650 55%,#4b3026)}
+.person .captionname{display:block;font-weight:800}
+.person small{font-weight:normal;color:#74533a}
+.actions{display:flex;flex-direction:column;align-items:center}
+button.action{min-height:48px;touch-action:manipulation}
+#next{width:min(100%,360px);min-height:58px;border-radius:18px;font-size:17px;letter-spacing:.4px;order:-1;box-shadow:0 5px 0 #75451e,0 9px 18px rgba(60,35,22,.16)}
+#restart{align-self:center}
+.option{min-height:62px;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.option:focus-visible,button.action:focus-visible{outline:4px solid #2476a8;outline-offset:3px}
+.enter-hint{font:12px Arial,sans-serif;color:#765b3d;text-align:center;margin:7px 0 0}
+.share-area{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:18px auto 4px;padding:14px 12px;border:1px solid #d9bd8c;border-radius:16px;background:rgba(255,250,239,.92)}
+.share-area p{flex-basis:100%;margin:0;text-align:center;font:13px/1.4 Arial,sans-serif;color:#705238}
+.share-area button{flex:1 1 190px;max-width:320px;min-height:48px;border:0;border-radius:12px;padding:12px 14px;background:#527b55;color:#fff;font:bold 14px Arial,sans-serif;box-shadow:0 4px 0 #345238;cursor:pointer;touch-action:manipulation}
+.share-area button.copy{background:#8d3c43;box-shadow:0 4px 0 #5c252d}
+.share-status{flex-basis:100%;min-height:18px;text-align:center;color:#5e713f;font:12px Arial,sans-serif}
+@media(max-width:560px){.share-area{gap:9px;margin-top:14px;padding:11px 9px}.share-area button{max-width:none;flex-basis:100%;min-height:46px}}
+@media(max-width:560px){
+ body{background:#263d4a}
+ .page{min-height:100svh;padding:10px 8px 22px;background:linear-gradient(180deg,#9bbac0 0%,#e0c28f 44%,#53694b 100%)}
+ header{margin:3px 0 12px}
+ .kicker{font-size:10px;letter-spacing:1.8px}
+ h1{font-size:clamp(25px,7vw,34px);line-height:1.05}
+ .subtitle{font-size:12px;line-height:1.35;max-width:330px;margin:auto}
+ .topline{gap:6px;margin:11px 0}
+ .pill{font-size:11px;padding:7px 9px}
+ .shell{border-width:3px;border-radius:18px}
+ .scene{padding:9px 5px 8px}
+ .cast{min-height:132px;gap:3px}
+ .person{width:31%;font-size:11px}
+ .avatar{width:76px;height:90px;transform:scale(.9);transform-origin:bottom center;margin-bottom:0}
+ .avatar:before{left:19px;top:8px;width:42px;height:43px}
+ .avatar:after{left:10px;top:47px;width:61px;height:48px}
+ .person:nth-child(1) .avatar .hair{left:17px;width:47px;height:25px}
+ .person:nth-child(2) .avatar .helmet{left:12px;width:55px;height:28px}
+ .person:nth-child(2) .avatar .helmet:after{left:22px}
+ .person:nth-child(3) .avatar .hair{left:17px;width:47px}
+ .speech{font-size:12px;line-height:1.35;margin:4px auto 0;padding:0 7px}
+ .content{padding:14px 12px 17px}
+ .progressrow{font-size:10px;gap:5px;align-items:flex-start}
+ .progress{height:8px;margin:7px 0 15px}
+ .tag{font-size:10px;letter-spacing:1px}
+ h2{font-size:21px;margin:7px 0 9px}
+ .question{font-size:15px;line-height:1.45;margin-bottom:13px}
+ .options{gap:9px}
+ .option{font-size:14px;line-height:1.35;padding:11px 10px;gap:9px;min-height:58px;border-radius:12px}
+ .letter{flex-basis:27px;height:27px;font-size:13px}
+ .explanation{padding:13px;margin-top:13px;font-size:13px;line-height:1.45}
+ .explanation h3{font-size:15px}
+ .actions{margin-top:15px;gap:12px}
+ #next{width:100%;min-height:56px;font-size:16px}
+ #restart{width:100%;min-height:44px}
+ .note{font-size:11px;line-height:1.4;margin-top:11px}
+ .result{padding:23px 15px}
+ .result p{font-size:15px}
+}
+@media(max-width:360px){.avatar{transform:scale(.78)}.cast{min-height:119px}.person{font-size:10px}.pill{font-size:10px}}
+
+</style>
+</head>
+<body>
+<div class="page">
+ <div class="sun"></div>
+ <div class="skyline" aria-hidden="true">
+  <svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax slice">
+   <g fill="#8c6547" opacity=".72">
+    <path d="M0 240h1200v60H0z"></path>
+    <path d="M80 240V95h230v145zM65 95h260l-22-20H87z"></path>
+    <path d="M370 240V125h290v115zM350 125h330l-25-22H375z"></path>
+    <path d="M730 240V80h260v160zM710 80h300l-25-22H735z"></path>
+    <path d="M1030 240V135h130v105zM1015 135h160l-18-18h-124z"></path>
+   </g>
+   <g fill="#e8d3aa" opacity=".9">
+    <path d="M105 240V125h26v115M165 240V125h26v115M225 240V125h26v115"></path>
+    <path d="M405 240V155h25v85M470 240V155h25v85M535 240V155h25v85M600 240V155h25v85"></path>
+    <path d="M770 240V110h27v130M840 240V110h27v130M910 240V110h27v130"></path>
+   </g>
+   <g fill="#6f4937"><path d="M0 245h1200v55H0z"></path></g>
+  </svg>
+ </div>
+ <div class="wrap">
+  <header>
+   <div class="kicker">Uma aventura pela História • 6º ano</div>
+   <h1>🏛️ A Última Defesa de Roma</h1>
+   <p class="subtitle">A crise do Império e as migrações dos povos germânicos</p>
+   <div class="topline">
+    <span class="pill">⭐ Pontos: <b id="score">0</b></span>
+    <span class="pill">🪙 Moedas: <b id="coins">0</b></span>
+    <span class="pill">📜 Questão: <b id="count">1</b>/12</span>
+   </div>
+   <div class="share-tools" aria-label="Compartilhar o jogo">
+    <button type="button" id="shareGame">📤 COMPARTILHAR JOGO</button>
+    <button type="button" id="copyGameLink">📋 COPIAR LINK</button>
+    <div id="shareStatus" role="status" aria-live="polite"></div>
+   </div>
+  </header>
+
+  <main class="shell">
+   <section class="scene">
+    <div class="cast" aria-label="Personagens da aventura">
+     <div class="person"><div class="avatar"><span class="hair"></span></div><div><span class="captionname">Lúcio</span><small>jovem romano</small></div></div>
+     <div class="person"><div class="avatar"><span class="helmet"></span></div><div><span class="captionname">Márcia</span><small>guardiã da cidade</small></div></div>
+     <div class="person"><div class="avatar"><span class="hair"></span></div><div><span class="captionname">Flávio</span><small>estudioso</small></div></div>
+    </div>
+    <p class="speech" id="speech">Lúcio: “Precisamos entender por que o governo romano enfrentava tantos problemas.”</p>
+   </section>
+   <section class="content" id="quiz">
+    <div class="progressrow"><span id="mission">MISSÃO 1 — A CRISE DE ROMA</span><span id="percent">0% concluído</span></div>
+    <div class="progress"><div class="bar" id="bar" style="width: 0%;"></div></div>
+    <div class="tag">Desafio histórico</div>
+    <h2 id="title">Por que Roma enfraqueceu?</h2>
+    <p class="question" id="question">No século III, o Império Romano enfrentou disputas pelo poder, dificuldades econômicas e problemas para proteger suas fronteiras. O que essa combinação de fatores provocou?</p>
+    <div class="options" id="options"><button class="option"><span class="letter">A</span><span>A necessidade de reorganizar o governo e o exército, sem conseguir eliminar todas as dificuldades.</span></button><button class="option"><span class="letter">B</span><span>O desaparecimento imediato das cidades e do comércio em todo o território.</span></button><button class="option"><span class="letter">C</span><span>A união política permanente entre todos os povos que viviam além das fronteiras.</span></button></div>
+    <div id="retryMessage" class="retry-message hidden" aria-live="polite">💪 Não foi dessa vez! Tente novamente.<small>Você ainda tem outra chance. Pense com calma e escolha outra alternativa.</small></div>
+    <div id="explanation" class="explanation hidden" aria-live="polite">
+     <h3 id="exTitle"></h3><div id="exText"></div>
+    </div>
+    <div class="actions">
+     <button class="action" id="restart" type="button">↻ Recomeçar</button>
+     <button class="action gold" id="next" type="button" disabled="">↵ ENTER • CONTINUAR</button>
+    </div>
+    <p class="enter-hint">Acerte a missão para ganhar uma moeda e liberar o botão ENTER.</p>
+    <p class="note">Leia com atenção e escolha A, B ou C. Se errar, tente outra alternativa. Ao acertar, ganhe uma moeda e confira a explicação histórica.</p>
+   </section>
+   <section id="result" class="result hidden">
+    <div class="trophy">🏆🏛️</div>
+    <div class="tag">Jornada concluída</div>
+    <h2>Você terminou a aventura!</h2>
+    <p id="resultText"></p>
+    <p><strong>Aprendizado:</strong> a queda do Império Romano do Ocidente foi um processo histórico complexo, relacionado a transformações internas e externas. O ano de 476 d.C. é usado tradicionalmente como marco desse acontecimento.</p>
+    <button class="action gold" onclick="restartGame()">Jogar novamente</button>
+   </section>
+  </main>
+ </div>
+</div>
+<script>
+const questions = [
+ {mission:"MISSÃO 1 — A CRISE DE ROMA",title:"Por que Roma enfraqueceu?",
+  q:"No século III, o Império Romano enfrentou disputas pelo poder, dificuldades econômicas e problemas para proteger suas fronteiras. O que essa combinação de fatores provocou?",
+  a:["A necessidade de reorganizar o governo e o exército, sem conseguir eliminar todas as dificuldades.","O desaparecimento imediato das cidades e do comércio em todo o território.","A união política permanente entre todos os povos que viviam além das fronteiras."],correct:0,
+  why:"A alternativa A é verdadeira porque diferentes crises se reforçavam. As disputas políticas dificultavam decisões, enquanto problemas econômicos e militares tornavam mais difícil administrar e defender um território muito extenso."},
+ {mission:"MISSÃO 2 — ROMANOS E POVOS DE ALÉM-FRONTEIRA",title:"Uma palavra, muitos povos",
+  q:"Na Roma Antiga, o termo ‘bárbaro’ era utilizado para designar povos que viviam fora das fronteiras do Império Romano. Do ponto de vista histórico, como podemos definir corretamente esse termo?",
+  a:["Era o nome de um único povo que vivia ao norte de Roma.","Era uma forma de reunir povos com línguas e costumes diferentes dos romanos, embora esses grupos fossem diversos entre si.","Indicava que todos esses povos tinham o mesmo modo de vida e a mesma organização política."],correct:1,
+  why:"A alternativa B é verdadeira. Os romanos agrupavam povos diferentes por não compartilharem sua língua e seus costumes. Visigodos, vândalos, francos, ostrogodos e outros grupos tinham histórias, costumes e lideranças próprias."},
+ {mission:"MISSÃO 3 — UM IMPÉRIO DIVIDIDO",title:"Duas partes, muitos desafios",
+  q:"No final do século IV, a divisão administrativa entre Império Romano do Oriente e Império Romano do Ocidente tornou-se permanente. Qual consequência ajuda a compreender essa mudança?",
+  a:["As duas partes deixaram de ter qualquer relação política ou cultural imediatamente.","O Império do Ocidente passou a controlar sozinho todas as rotas comerciais do Mediterrâneo.","As duas partes passaram a ter governos próprios, enfrentando desafios diferentes; o Oriente manteve-se por muitos séculos."],correct:2,
+  why:"A alternativa C é verdadeira. A divisão facilitou a administração de um território muito amplo, mas as duas partes seguiram trajetórias distintas. O Império Romano do Oriente continuou existindo, mais tarde conhecido como Império Bizantino."},
+ {mission:"MISSÃO 4 — ACORDOS E CONFLITOS",title:"Quem eram os povos federados?",
+  q:"Alguns grupos germânicos fizeram acordos com autoridades romanas e receberam terras ou autorização para se estabelecer dentro do Império. Em troca, podiam oferecer apoio militar. Como esses grupos eram conhecidos?",
+  a:["Povos federados, ligados a Roma por acordos que podiam envolver obrigações militares.","Cidadãos patrícios, responsáveis por escolher todos os imperadores.","Legiões senatoriais, formadas exclusivamente por comerciantes."],correct:0,
+  why:"A alternativa A é verdadeira. Os acordos com povos federados foram uma das formas encontradas por Roma para lidar com a defesa das fronteiras e com a presença de grupos em seu território. As relações também podiam envolver tensões e conflitos."},
+ {mission:"MISSÃO 5 — O SAQUE DE 410",title:"Os visigodos chegam a Roma",
+  q:"Em 410, tropas visigodas lideradas por Alarico saquearam a cidade de Roma. Por que esse acontecimento teve grande impacto simbólico?",
+  a:["Porque marcou a criação do Império Romano do Oriente.","Porque Roma era um símbolo central do poder imperial, e o saque mostrou a fragilidade da autoridade no Ocidente.","Porque encerrou naquele mesmo ano toda a presença romana na Europa."],correct:1,
+  why:"A alternativa B é verdadeira. Roma já não era a principal sede do governo ocidental, mas continuava carregando enorme importância simbólica. O saque revelou dificuldades militares e políticas do Império do Ocidente, que ainda não terminou em 410."},
+ {mission:"MISSÃO 6 — OS VÂNDALOS",title:"Uma travessia pelo Mediterrâneo",
+  q:"No século V, os vândalos atravessaram a Península Ibérica e chegaram ao norte da África, onde estabeleceram um reino. O que essa trajetória demonstra?",
+  a:["Que os deslocamentos de povos podiam atravessar regiões e mares, transformando o controle de territórios romanos.","Que os vândalos permaneceram sempre dentro da cidade de Roma.","Que o norte da África nunca fez parte do mundo romano."],correct:0,
+  why:"A alternativa A é verdadeira. Os movimentos dos vândalos mostram que as transformações do período ocorreram em diferentes regiões. O norte da África era uma área importante do Império Romano, especialmente para a produção e o abastecimento de alimentos."},
+ {mission:"MISSÃO 7 — A PRESSÃO DOS HUNOS",title:"Movimentos em cadeia",
+  q:"A expansão dos hunos pela Europa, no século IV, contribuiu para deslocamentos de outros povos. Qual explicação representa melhor esse processo?",
+  a:["A chegada dos hunos provocou mudanças e pressões sobre diferentes grupos, contribuindo para movimentos em direção às fronteiras romanas.","Os hunos organizaram todos os povos germânicos em um único Estado duradouro.","Os hunos conquistaram e governaram todas as províncias romanas do Ocidente."],correct:0,
+  why:"A alternativa A é verdadeira. A expansão dos hunos foi um dos fatores que influenciaram deslocamentos populacionais. Esses movimentos tiveram várias causas e não podem ser explicados por um único acontecimento."},
+ {mission:"MISSÃO 8 — NOVOS REINOS",title:"A Europa em transformação",
+  q:"Com o enfraquecimento do governo imperial no Ocidente, diferentes lideranças germânicas passaram a controlar partes de antigos territórios romanos. Qual resultado histórico está relacionado a esse processo?",
+  a:["A restauração imediata de um único governo romano em toda a Europa ocidental.","O desaparecimento completo das leis, cidades e costumes romanos.","A formação de reinos que combinaram, de diferentes maneiras, tradições germânicas e elementos da cultura romana."],correct:2,
+  why:"A alternativa C é verdadeira. Os novos reinos não apagaram tudo o que existia antes. Em diferentes regiões, práticas políticas, leis, língua, religião e costumes romanos continuaram influenciando as sociedades."},
+ {mission:"MISSÃO 9 — O ANO DE 476",title:"O fim de um império?",
+  q:"Em 476, Odoacro depôs Rômulo Augusto, considerado o último imperador romano do Ocidente. Qual afirmação interpreta esse marco de forma historicamente mais cuidadosa?",
+  a:["Foi o fim de toda a civilização romana, inclusive no Oriente, naquele mesmo ano.","É uma data tradicional para marcar o fim do Império Romano do Ocidente, mas muitas estruturas e influências romanas continuaram em outras sociedades.","Foi o início do Império Romano, que antes não existia."],correct:1,
+  why:"A alternativa B é verdadeira. O ano de 476 é uma referência convencional para a queda do Império Romano do Ocidente. O Império Romano do Oriente continuou por quase mil anos, e a herança romana permaneceu nas leis, na língua, na religião e na cultura de muitos povos."},
+ {mission:"MISSÃO 10 — A DIVISÃO DO IMPÉRIO",title:"Por que Roma foi dividida?",
+  q:"Por que o Império Romano foi dividido em Império Romano do Ocidente e Império Romano do Oriente?",
+  a:["Porque os romanos queriam abandonar completamente o território europeu.","Porque o enorme território romano era difícil de administrar e controlar.","Porque os romanos deixaram de possuir um exército.","Porque os povos germânicos exigiram a divisão do Império."],correct:1,
+  why:"A alternativa B é verdadeira. A divisão ajudou a facilitar a administração de um território muito grande. O Império Romano do Oriente continuou existindo por muitos séculos, enquanto o Império Romano do Ocidente enfrentou crises cada vez maiores até sua queda em 476 d.C."},
+ {mission:"MISSÃO 11 — ROMANOS E POVOS GERMÂNICOS",title:"Conflitos, comércio e alianças",
+  q:"Como era, de maneira geral, a relação entre os romanos e os povos germânicos que viviam próximos às fronteiras do Império?",
+  a:["Era sempre de guerra, sem nenhum tipo de contato ou troca.","Os romanos nunca tiveram contato com esses povos.","Havia conflitos, mas também comércio, alianças e presença de germânicos no exército romano.","Os povos germânicos viviam todos dentro da cidade de Roma."],correct:2,
+  why:"A alternativa C é verdadeira. A relação entre romanos e povos germânicos não era apenas de conflitos. Também existiam comércio, alianças e acordos. Alguns povos germânicos chegaram a servir no exército romano e, posteriormente, diferentes grupos se estabeleceram em territórios do Império."},
+ {mission:"MISSÃO 12 — OS NOVOS REINOS",title:"O que veio depois da queda?",
+  q:"Após a queda do Império Romano do Ocidente, em 476 d.C., o que aconteceu com os territórios que antes faziam parte desse Império?",
+  a:["Todos os territórios foram abandonados e ficaram sem habitantes.","Surgiram diferentes reinos, muitos deles formados ou governados por povos germânicos.","O Império Romano passou a controlar toda a Europa novamente.","Roma deixou de existir imediatamente."],correct:1,
+  why:"A alternativa B é verdadeira. A queda do Império Romano do Ocidente não significou o desaparecimento das cidades e das populações. Em diferentes regiões, surgiram novos reinos, muitos deles ligados a povos germânicos. Essas transformações contribuíram para a formação de novas sociedades na Europa medieval."}
+];
+let index=0,score=0,coins=0,answered=false;
+const $=id=>document.getElementById(id);
+function render(){
+ const q=questions[index];answered=false;
+ $("mission").textContent=q.mission;$("title").textContent=q.title;$("question").textContent=q.q;
+ $("count").textContent=index+1;$("percent").textContent=Math.round(index/questions.length*100)+"% concluído";
+ $("bar").style.width=(index/questions.length*100)+"%";
+ $("options").innerHTML="";$("explanation").classList.add("hidden");$("retryMessage").classList.add("hidden");$("next").disabled=true;
+ $("next").textContent=index===questions.length-1?"↵ ENTER • VER RESULTADO":"↵ ENTER • CONTINUAR";
+ q.a.forEach((answer,i)=>{
+  const btn=document.createElement("button");btn.className="option";
+  btn.innerHTML='<span class="letter">'+String.fromCharCode(65+i)+'</span><span>'+answer+'</span>';
+  btn.addEventListener("click",()=>choose(i,btn));$("options").appendChild(btn);
+ });
+ const lines=[
+  "Lúcio: “Precisamos entender por que o governo romano enfrentava tantos problemas.”",
+  "Márcia: “Nem todos os povos tinham os mesmos costumes. Vamos olhar com atenção para as fontes.”",
+  "Flávio: “A divisão do governo mudou o rumo das duas partes do Império.”",
+  "Lúcio: “Roma também fez acordos com grupos que viviam além das fronteiras.”",
+  "Márcia: “O saque de 410 foi marcante, mas não significou o fim imediato do Império.”",
+  "Flávio: “Os caminhos desses povos atravessaram várias regiões.”",
+  "Lúcio: “Um movimento pode influenciar o deslocamento de muitos outros grupos.”",
+  "Márcia: “As sociedades mudam: elementos antigos podem continuar presentes.”",
+  "Flávio: “Uma data pode marcar uma mudança, mas a História não termina de repente.”",
+  "Lúcio: “Um território tão grande exigia novas formas de administração.”",
+  "Márcia: “Entre romanos e germânicos também existiam comércio, acordos e alianças.”",
+  "Flávio: “Depois de 476, diferentes reinos surgiram nos antigos territórios romanos.”"
+ ];
+ $("speech").textContent=lines[index];$("score").textContent=score;$("coins").textContent=coins;
+}
+function choose(choice,btn){
+ if(answered || btn.disabled)return;
+ const q=questions[index],buttons=[...document.querySelectorAll(".option")];
+ if(choice!==q.correct){
+  // A alternativa errada fica marcada, mas a resposta certa não é revelada.
+  // O aluno pode tentar novamente escolhendo uma das outras opções.
+  btn.classList.add("wrong");btn.disabled=true;
+  $("retryMessage").classList.remove("hidden");
+  return;
+ }
+ answered=true;
+ buttons.forEach(b=>b.disabled=true);
+ btn.classList.add("correct");
+ score+=100;coins+=1;
+ $("exTitle").textContent="✓ Muito bem! Você conseguiu!";
+ $("exText").textContent=q.why;
+ $("explanation").classList.remove("hidden");
+ $("retryMessage").classList.add("hidden");
+ $("score").textContent=score;$("coins").textContent=coins;
+ $("next").disabled=false;
+ $("percent").textContent=Math.round((index+1)/questions.length*100)+"% concluído";
+ $("bar").style.width=((index+1)/questions.length*100)+"%";
+}
+
+function next(){
+ if(!answered)return;
+ if(index<questions.length-1){index++;render();}
+ else showResult();
+}
+function showResult(){
+ $("quiz").classList.add("hidden");$("result").classList.remove("hidden");
+ const correct=score/100;
+ $("resultText").innerHTML="Você concluiu as "+questions.length+" perguntas e acertou <strong>"+correct+" de "+questions.length+"</strong>.<br>Você conquistou <strong>"+score+" pontos</strong> e <strong>"+coins+" moedas</strong>.";
+ $("bar").style.width="100%";$("percent").textContent="100% concluído";
+}
+function restartGame(){index=0;score=0;coins=0;$("result").classList.add("hidden");$("quiz").classList.remove("hidden");render();}
+$("next").addEventListener("click",next);$("restart").addEventListener("click",restartGame);
+render();
+
+// Compartilhamento: usa a folha nativa do celular quando o jogo estiver publicado.
+function isPublicWebLink(){return location.protocol === "https:" || location.protocol === "http:";}
+function setShareStatus(message){$("shareStatus").textContent=message;}
+async function shareGame(){
+ if(!isPublicWebLink()){
+  setShareStatus("Para compartilhar pelo Instagram, primeiro precisamos publicar este arquivo e criar um link público.");
+  return;
+ }
+ const shareData={title:"A Última Defesa de Roma",text:"Venha jogar esta aventura de História sobre o Império Romano!",url:location.href};
+ if(navigator.share){
+  try{await navigator.share(shareData);setShareStatus("Compartilhamento aberto!");}
+  catch(error){if(error.name!=="AbortError")setShareStatus("Não foi possível abrir o compartilhamento. Você pode copiar o link.");}
+ }else{
+  await copyGameLink();
+ }
+}
+async function copyGameLink(){
+ if(!isPublicWebLink()){
+  setShareStatus("Este arquivo ainda não tem um endereço público. Publique o jogo para gerar o link que funciona no Instagram.");
+  return;
+ }
+ try{
+  await navigator.clipboard.writeText(location.href);
+  setShareStatus("Link copiado! Agora é só colar na mensagem do Instagram ou WhatsApp.");
+ }catch(error){
+  setShareStatus("Não foi possível copiar automaticamente. Copie o endereço exibido no navegador.");
+ }
+}
+$("shareGame").addEventListener("click",shareGame);
+$("copyGameLink").addEventListener("click",copyGameLink);
+// O botão ENTER funciona por toque no celular e também pela tecla Enter em computadores.
+document.addEventListener("keydown",(event)=>{
+ if(event.key==="Enter" && !$("quiz").classList.contains("hidden") && answered){event.preventDefault();next();}
+});
+</script>
+
+</body></html>
